@@ -200,10 +200,12 @@ a:hover::after{
     background-color: #12121e;
     color: #ffffff;
     margin-bottom: 80px;
+    width: 600px;
+    height: 200px;
 }
 .menu-img{
-    height: 140px;
-    width: 140px;
+    max-height: 140px;
+    max-width: 140px;
     margin-right: 40px;
     margin-left: 40px;
     position: relative;
@@ -215,21 +217,21 @@ a:hover::after{
 }
 
 .menu-img-row p{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    font-size: 90%;
 }
 
 
 /* button */
 button{
     padding: 15px 50px;
-    font-size: 1rem;
+    font-size: 85%;
     cursor: pointer;
     border: 0px;
     background-color: transparent;
     position: relative;
     margin: 20px;
     transition: all 0.25s ease;
-
 }
 .btn-1{
     background: #fbbe00;

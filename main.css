@@ -19,6 +19,7 @@ body,html{
     text-align: center;
     justify-content: center;
     animation: change 25s infinite ease-in-out;
+    display: flex;
 }
 
 li{
@@ -73,8 +74,6 @@ a:hover::after{
     display: flex;
     gap: 2rem;
 }
-
-
 
 .logo{
     width: 300px;
@@ -212,4 +211,49 @@ a:hover::after{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
+
+#menu-icon{
+    color: #FFF;
+    font-size: 38px;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+@media screen and (max-width: 1350px){
+    #menu-icon {
+        padding-right: 40px;
+        display: block;
+    }
+    .navbar .link{
+        position: absolute;
+        top: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: all .75s ease;
+        text-align: center;
+    }
+    .navbar a{
+        color: #FFF;
+        top: 200px;
+        right: 20px;
+        border-right: 2px solid #FFF;
+        margin: 1rem;
+        display: block;
+    }
+    .navbar a:hover{
+        background: #FFF;
+        color:#000000;
+    }
+    .link.open{
+        top: -100px;
+    }
 }

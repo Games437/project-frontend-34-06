@@ -202,6 +202,8 @@ a:hover::after{
     margin-bottom: 80px;
     width: 600px;
     height: 200px;
+    max-width: 600px;
+    max-height: 200px;
 }
 .menu-img{
     max-height: 140px;
@@ -219,10 +221,11 @@ a:hover::after{
 .menu-img-row p{
     padding-bottom: 30px;
     font-size: 90%;
+    
 }
 
 
-/* button */
+/* button
 button{
     padding: 15px 50px;
     font-size: 85%;
@@ -247,7 +250,7 @@ button{
     transition: all 0.25s ease;
     margin-top: 20px;
     margin-left: 300px;
-}
+} */
 
 /* promotion 
 .promotion{
@@ -637,12 +640,13 @@ button{
         font-size: 25px;
         padding-left: 50px;
         padding-bottom: 50px;
+        padding-right: 420px;
         display: block;
     }
     .navbar .link{
         position: absolute;
         top: 100%;
-        right: -3%;
+        right: 3%;
         display: flex;
         flex-direction: column;
         transition: all .75s ease;
@@ -675,6 +679,18 @@ button{
         grid-template-columns: 1fr 1fr;
         column-gap: 10px;
         row-gap: 10px;
+    }
+    .menu-img-row{
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        border-radius: 35px;
+        padding: 20px 15px;
+        background-color: #12121e;
+        color: #ffffff;
+        margin-bottom: 80px;
+        width: 100px;
+        height: 50px;
     }
     .footer-left{
         flex-basis: 100%;

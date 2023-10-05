@@ -19,7 +19,6 @@ body,html{
     text-align: center;
     justify-content: center;
     animation: change 25s infinite ease-in-out;
-    display: flex;
 }
 
 li{

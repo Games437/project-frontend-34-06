@@ -168,10 +168,10 @@ a:hover::after{
 }
 .product-content .box img{
     width: 100%;
-    max-height: 150px;
-    max-width: 200px;
+    height: 200px;
     object-fit: contain;
     object-position: center;
+    border-radius: 20px;
 }
 .product-content .box h2{
     font-size: 1rem;
@@ -191,6 +191,7 @@ a:hover::after{
     justify-content: space-between;
     flex-wrap: wrap;
     color: #FFF;
+    font-size: 20px;
 }
 .footer-left,.footer-right{
     flex-basis: 30%;

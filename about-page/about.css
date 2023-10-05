@@ -201,6 +201,7 @@ a:hover::after{
     justify-content: space-between;
     flex-wrap: wrap;
     color: #FFF;
+    font-size: 20px;
 }
 .footer-left,.footer-right{
     flex-basis: 30%;
